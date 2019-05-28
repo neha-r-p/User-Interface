@@ -26,7 +26,7 @@ time, mark, audio, video {
 /* HTML5 display-role reset for older browsers */
 article, aside, details, figcaption, figure, 
 footer, header, hgroup, menu, nav, section {
-	display: block;
+	display: inline-block;
 }
 body {
 	line-height: 1;
@@ -64,3 +64,77 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Your code starts here! */
+
+header {
+	display: inline-block;
+	width: 95%;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+a {
+	text-decoration: none;
+	color: slategray;
+	margin-left:auto;
+	margin-right: auto;
+	padding: 20px;
+}
+
+h1 {
+font-size: 3em;
+}
+
+section {
+	display: inline-block;
+}
+
+p {
+	margin:auto;
+}
+.featabout div {
+	display: inline-block;
+	width: 49%;
+	padding: 40px;
+}
+
+.bottom div {
+	display:inline-block;
+	width: 33%;
+	padding: 40px;
+}
+
+button {
+	border: 1px solid black;
+	padding-left: 20px;
+	padding-right: 20px;
+}
+
+address {
+	margin-left: 40px;
+}
+
+footer {
+	text-align: center;
+}
+
+hr {
+	width: 95%;
+	color: black;
+}
+.middle-img {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 95%;
+}
+
+.topleft {
+	margin: 40px;
+}
+
+.topleft div {
+	display: inline-block;
+	width: 45%;
+	margin-left: auto;
+	margin-right: auto;
+}

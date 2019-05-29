@@ -64,12 +64,22 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Your code starts here! */
-
+body {
+	margin: 40px;
+}
 header {
-	display: inline-block;
-	width: 95%;
+	background-color:rgb(184, 214, 245);
+	display: block;
 	margin-left: auto;
 	margin-right: auto;
+	padding-left: 40px;
+}
+
+nav {
+	
+	padding: 10px;
+	vertical-align: top;
+
 }
 
 a {
@@ -80,8 +90,12 @@ a {
 	padding: 20px;
 }
 
+a:hover {
+	color: white;
+}
+
 h1 {
-font-size: 3em;
+font-size: 4em;
 }
 
 section {
@@ -104,9 +118,12 @@ p {
 }
 
 button {
+	display: block;
+	margin:0 auto;
 	border: 1px solid black;
 	padding-left: 20px;
 	padding-right: 20px;
+	font-size: 20px;
 }
 
 address {
@@ -114,6 +131,7 @@ address {
 }
 
 footer {
+	display: block;
 	text-align: center;
 }
 
@@ -129,7 +147,14 @@ hr {
 }
 
 .topleft {
-	margin: 40px;
+	display: block;
+	margin:0 auto;
+	height: 400px;
+}
+
+.topleft div h1 {
+	display: block;
+	text-align: center;
 }
 
 .topleft div {
@@ -137,4 +162,8 @@ hr {
 	width: 45%;
 	margin-left: auto;
 	margin-right: auto;
+}
+
+.verticalcenter {
+	vertical-align: 5em;
 }
